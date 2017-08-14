@@ -42,35 +42,62 @@
   color: white;
   padding-bottom: 200px;
   padding-top: 100px;
+  padding-right: 250px;
+  padding-left: 200px;
   background-repeat: no-repeat;
 }
 
-.breakfast{
+.breakfast {
   background-image:url("../assets/foodtop/breakfast.jpg");
   color: white;
   font-style: italic;
-  padding-bottom: 150px;
-  padding-left: 200px;
-  padding-right: 100px;
+  padding-bottom: 100px;
+  padding-left: 100px;
+  padding-right: 150px;
+  background-repeat: no-repeat;
+  padding-top: 100px;
   text-align: center;
 }
 
-.lunch{
+.lunch {
   background-image:url("../assets/foodtop/lunch.jpg");
   color: white;
   font-style: italic;
-  padding-bottom: 150px;
+  padding-bottom: 100px;
   padding-left: 100px;
-  padding-right: 100px;
+  padding-right: 150px;
+  padding-top: 100px;
+  background-repeat: no-repeat;
   text-align: center;
 }
 
-.dinner{
+.dinner {
   background-image:url("../assets/foodtop/dinner.jpg");
   color: white;
   font-style: italic;
-  padding-bottom: 150px;
+  padding-bottom: 100px;
   padding-left: 100px;
-  padding-right: 100px;
+  padding-right: 150px;
+  padding-top: 100px;
+  background-repeat: no-repeat;
   text-align: center;
+}
+
+.happy-hour {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+
+.party-time {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #F15A29;
+  color: white;
+  text-align: center;
+}
+
+.lunch:hover {
+background-color: white;
+color: black;
 }
