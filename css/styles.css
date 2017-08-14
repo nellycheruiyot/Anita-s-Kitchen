@@ -36,11 +36,6 @@
 .bgd p {
   color: blue;
 }
-
-.skills p {
-  color: blue;
-}
-
-.hobbies p {
-  color: blue;
+.image {
+  float: left;
 }
