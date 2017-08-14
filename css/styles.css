@@ -1,0 +1,46 @@
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  body {
+    background-color: black;
+    color: white;
+  }
+}
+
+ @media screen and (min-width: 768px) {
+   body {
+     background-color: white;
+   }
+   .column {
+     width: 220px;
+     float: left;
+     padding: 15px;
+   }
+ }
+
+ .important {
+   color: blue;
+ }
+
+ .box {
+   border: 2px solid gray;
+   padding: 12px;
+   margin: 20px;
+   text-align: center;
+ }
+
+.column {
+  width: 350px;
+  top: 100px;
+  float: left;
+}
+
+.bgd p {
+  color: blue;
+}
+
+.skills p {
+  color: blue;
+}
+
+.hobbies p {
+  color: blue;
+}
