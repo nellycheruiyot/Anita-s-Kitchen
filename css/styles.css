@@ -36,6 +36,41 @@
 .bgd p {
   color: blue;
 }
-.image {
-  float: left;
+.header {
+  background-image:url("../assets/backgrounds/landing.jpg");
+  text-align: center;
+  color: white;
+  padding-bottom: 200px;
+  padding-top: 100px;
+  background-repeat: no-repeat;
+}
+
+.breakfast{
+  background-image:url("../assets/foodtop/breakfast.jpg");
+  color: white;
+  font-style: italic;
+  padding-bottom: 150px;
+  padding-left: 200px;
+  padding-right: 100px;
+  text-align: center;
+}
+
+.lunch{
+  background-image:url("../assets/foodtop/lunch.jpg");
+  color: white;
+  font-style: italic;
+  padding-bottom: 150px;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: center;
+}
+
+.dinner{
+  background-image:url("../assets/foodtop/dinner.jpg");
+  color: white;
+  font-style: italic;
+  padding-bottom: 150px;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: center;
 }
