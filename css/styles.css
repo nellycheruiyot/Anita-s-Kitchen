@@ -101,3 +101,12 @@
 background-color: white;
 color: black;
 }
+
+.fast-food {
+  background-image:url("../assets/backgrounds/foodsBg.jpg");
+  padding-bottom: 200px;
+  padding-top: 100px;
+  padding-right: 250px;
+  padding-left: 200px;
+  background-repeat: no-repeat;
+}
