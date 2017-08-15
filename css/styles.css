@@ -16,26 +16,6 @@
    }
  }
 
- .important {
-   color: blue;
- }
-
- .box {
-   border: 2px solid gray;
-   padding: 12px;
-   margin: 20px;
-   text-align: center;
- }
-
-.column {
-  width: 350px;
-  top: 100px;
-  float: left;
-}
-
-.bgd p {
-  color: blue;
-}
 .header {
   background-image:url("../assets/backgrounds/landing.jpg");
   text-align: center;
@@ -45,6 +25,9 @@
   padding-right: 250px;
   padding-left: 200px;
   background-repeat: no-repeat;
+  font-family: 'Slabo 27px', serif;
+  font-size: 30px;
+  font-weight: lighter;
 }
 
 .breakfast {
@@ -57,6 +40,7 @@
   background-repeat: no-repeat;
   padding-top: 100px;
   text-align: center;
+  font-size: 20px;
   margin-top: 0px;
 }
 
@@ -70,6 +54,7 @@
   padding-top: 100px;
   background-repeat: no-repeat;
   text-align: center;
+  font-size: 20px;
 }
 
 .dinner {
@@ -82,6 +67,7 @@
   padding-top: 100px;
   background-repeat: no-repeat;
   text-align: center;
+  font-size: 20px;
 }
 
 .happy-hour {
@@ -98,8 +84,15 @@
   text-align: center;
 }
 
+.breakfast:hover {
+color: black;
+}
+
 .lunch:hover {
-background-color: white;
+color: black;
+}
+
+.dinner:hover {
 color: black;
 }
 
@@ -111,4 +104,26 @@ color: black;
   padding-left: 20px;
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+.subscribe {
+  background-image:url("../assets/backgrounds/subscribe.jpg");
+  text-align: center;
+  color: white;
+  padding-bottom: 200px;
+  padding-top: 100px;
+  padding-right: 250px;
+  padding-left: 200px;
+  background-repeat: no-repeat;
+}
+
+.footerlogos {
+  background-color: #F15A29;
+  text-align: center;
+  color: white;
+  padding-bottom: 200px;
+  padding-top: 100px;
+  padding-right: 250px;
+  padding-left: 200px;
+  background-repeat: no-repeat;
 }
