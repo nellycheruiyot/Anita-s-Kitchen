@@ -12,30 +12,28 @@
           <div class="container-fluid">
               <div class="landing">
                 <div class="menu">
-                  <a href="#" class="menu-button" id="activator"><img src="image/menulist.png" alt=""/></a>
+                  <div class="menu-btn">
+                    <a href="#" class="menu-button" id="activator"><img src="image/menulist.png" alt=""/></a>
+                  </div>
                   <div class="menulist">
-                    <ul>
-                      <li><a href="#menu" class="scroll">Menu</a></li>
-                      <li><a href="#events" class="scroll">Events</a></li>
-                      <li><a href="#contact" class="scroll">Contact</a></li>
-                    </ul>
+                    <div class="col-md-4"><a href="#" class="scroll">Menu</a></div>
+                    <div class="col-md-4"><a href="#" class="scroll">Events</a></div>
+                    <div class="col-md-4"><a href="#" class="scroll">Contact</a></div>
                   </div>
                 </div>
-                <img src="assets/logoBig.png">
-                <p>We Provide The Best Food</p>
-                <p>     At The <strong>Right Price</strong></p>
+                <div class="logo">
+                  <img src="assets/logoBig.png">
+                  <p>We Provide The Best Food</p>
+                  <p>     At The <strong>Right Price</strong></p>
+                </div>
               </div>
-              <!--<div class="row">-->
+            </div>
+            <div class="container-fluid">
                 <div class="col-md-3">
                   <div class="happy-party">
-                  <!--<div class="happy-hour">-->
                     <h4>Happy Hour</h4>
                     <h5>Party Time</h5>
                   </div>
-                  <!--<div class="party-time">
-                    <h4>Party Time</h4>
-                  </div>-->
-                <!--</div>-->
                 </div>
                 <div class="col-md-3">
                   <div class="breakfast">
@@ -54,15 +52,12 @@
                 </div>
             </div>
           <div class="container">
-            <!--<div class="row">-->
                 <div class="col-md-6">
-                  <!--<div class="well">-->
                     <div class="fastfood-images">
                       <img src="assets/fastFood1.jpg">
                       <img src="assets/fastFood2.jpg">
                     </div>
                   </div>
-                <!--</div>-->
               <div class="col-md-6">
                 <div class="fastfood">
                   <h1>Fast Food</h1>
@@ -73,7 +68,6 @@
             </div>
           </div>
           <div class="container">
-            <!--<div class="row">-->
               <div class="col-md-6">
                   <div class="drinks">
                     <h1>Drinks</h1>
@@ -84,31 +78,48 @@
                 </div>
                 <div class="col-md-6">
                   <div class="drinks-images">
-                    <!--<div class="well">-->
-                      <!--<div class="col-md-6">-->
                       <img src="assets/drink1.jpg"><img src="assets/drink2.jpg">
-                      <!--</div>-->
-                      <!--<div class="col-md-6">
-                      <img src="assets/drink2.jpg">
-                    </div>-->
-                    <!--</div>-->
                   </div>
                 </div>
-              <!--</div>-->
             </div>
               <div class="col-md-12">
                 <div class="foods">
-                  <div class="foods-image">
-                    <img src="assets/fastfood/chickenBurger.jpg" style="float: left; width: 30%; margin-left: 1%">
-                    <img src="assets/fastfood/beefBurger.jpg" style="float: right; width: 30%; margin-left: 1%">
-                    <img src="assets/fastfood/chickenPizza.jpg" style="float: right; width: 30%; margin-left: 1%">
-                  </div>
+                  <div class="tabs">
+                    <div id="horizontal-tabs">
+				                <div class="tab-links">
+				                  <div class="col-md-3 tab-1"><a href="#tab-1">Fast Food</a></div>
+				                  <div class="col-md-3"><a href="#tab-2">Drinks</a></div>
+				                  <div class="col-md-3"><a href="#tab-3">Chicken</a></div>
+							            <div class="col-md-3"><a href="#tab-4">Rice</a></div>
+				               </div>
+                       <div class="tab-content">
+						              <div id="tab-1" class="tab active">
+                            <div class="chickenBurger">
+                              <img src="assets/fastfood/chickenBurger.jpg">
+                              <p>Chicken Burger</p>
+                            </div>
+                            <div class="beefBurger">
+                              <img src="assets/fastfood/beefBurger.jpg">
+                              <p>Beef Burger</p>
+                            </div>
+                            <div class="chickenPizza">
+                              <img src="assets/fastfood/chickenPizza.jpg">
+                              <p>Chicken Pizza</p>
+                            </div>
+                          </div>
+                          <div id="tab-2" class="tab active">
+                            <p>Drinks</p>
+                          </div>
+                      </div>
+                   </div>
+                </div>
               </div>
             </div>
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-md-7">
-                <div class="customers">
+          <div class="container">
+            <div class="row customer">
+              <div class="cust">
+               <div class="col-md-7">
+                 <div class="customers">
                   <h4>Our Happy Customers</h4>
                   <p>George Richard</p>
                   <p>Great food! Menu is awesome, there foods are not only great but also in the right price. I'll highly recommend them :)</p>
@@ -116,24 +127,38 @@
                   <img src="assets/customers/p2.png">
                   <img src="assets/customers/p3.png">
                 </div>
-              </div>
+               </div>
               <div class="col-md-5">
                 <div class="menu">
                   <h4>About Menu</h4>
                   <p>We are menu a little team of 7 memeber. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
               </div>
-            </div>
+             </div>
+           </div>
           </div>
             <div class="subscribe">
               <h4>Get our daily food items delivered to your email</h4>
+              <form id="subscribe_form">
+                <input id="subscribe_form_input" type="text" class="text-email" value="Your email" onfocus="this.value = '';" onblur="if(this.value === '') {this.value = 'Your email ';}">
+                <button type="submit" class="btn">Subscribe</button>
+              </form>
             </div>
             <div class="footerlogos">
-              <img src="assets/footerlogos/logo_white.png"><h4>MENU</h4>
+              <div class="row">
+                <div class="col-md-6 footerLogo">
+                  <img src="assets/footerlogos/logo_white.png">
+                </div>
+                <div class="col-md-6 footerMenu">
+                  <h4>MENU</h4>
+                </div>
+              </div>
               <p>Thats What We Are</p>
-              <img src="assets/footerlogos/facebook.png">
-              <img src="assets/footerlogos/twitter.png">
-              <img src="assets/footerlogos/pinterest.png">
+              <p>
+                <a href="#"><img src="assets/footerlogos/facebook.png"></a>
+                <a href="#"><img src="assets/footerlogos/twitter.png"></a>
+                <a href="#"><img src="assets/footerlogos/pinterest.png"></a>
+              </p>
               <p>2016 Menu Restaurant</p>
             </div>
           </div>
