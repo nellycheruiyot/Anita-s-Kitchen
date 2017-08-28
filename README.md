@@ -8,7 +8,7 @@ This is a website created using the following image as a guide:
 
 
 ## Demo
-Here is a working live demo :  [github link]
+Here is a working live demo :  https://nellycheruiyot.github.io/Anita-s-Kitchen/
 
 ## Features
 -  Hover effect for the **breakfast, lunch and dinner ** sections such that on hover they are covered by a layer of white as shown by the lunch section and their fonts are turned to black from white.
